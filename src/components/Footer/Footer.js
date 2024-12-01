@@ -3,7 +3,7 @@ import logo from "../../assets/images/footerlogo.svg";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import { FaInstagram } from "react-icons/fa";
-import { CiFacebook } from "react-icons/ci";
+import { FaFacebookF } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -17,62 +17,62 @@ const Footer = () => {
             <p className="copyText"> &#169; R Singhania</p>
           </div>
           <div className="flex justify-evenly gap-20">
-            <div className="flex flex-col items-center gap-5">
-              <h4>Company</h4>
-              <ul>
+            <div className="flex flex-col items-start gap-5">
+              <h4 className="navHeader">Company</h4>
+              <ul className="flex flex-col gap-2">
                 <li>
-                  <Link>About</Link>
+                  <Link className="navItem">About</Link>
                 </li>
                 <li>
-                  <Link>FAQ</Link>
-                </li>
-              </ul>
-            </div>
-            <div className="flex flex-col items-center gap-5">
-              <h4>Terms</h4>
-              <ul>
-                <li>
-                  <Link>Data privacy</Link>
-                </li>
-                <li>
-                  <Link>Terms</Link>
-                </li>
-                <li>
-                  <Link>Accessibility</Link>
+                  <Link className="navItem">FAQ</Link>
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col items-center gap-5">
-              <h4>Related</h4>
-              <ul>
+            <div className="flex flex-col items-start gap-5">
+              <h4 className="navHeader">Terms</h4>
+              <ul className="flex flex-col gap-2">
                 <li>
-                  <Link>Find Buyer</Link>
+                  <Link className="navItem">Data privacy</Link>
                 </li>
                 <li>
-                  <Link>Feedback</Link>
+                  <Link className="navItem">Terms</Link>
+                </li>
+                <li>
+                  <Link className="navItem">Accessibility</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="flex flex-col items-start gap-5">
+              <h4 className="navHeader">Related</h4>
+              <ul className="flex flex-col gap-2">
+                <li>
+                  <Link className="navItem">Find Buyer</Link>
+                </li>
+                <li>
+                  <Link className="navItem">Feedback</Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
         <div className="">
-          <ul className="">
-            <li>
+          <ul className="flex gap-3">
+            <li className="iconStyle">
               <Link>
                 <FaLinkedinIn />
               </Link>
             </li>
-            <li>
+            <li className="iconStyle">
               <Link>
                 <BsTwitterX />
               </Link>
             </li>
-            <li>
+            <li className="iconStyle">
               <Link>
-                <CiFacebook />
+                <FaFacebookF />
               </Link>
             </li>
-            <li>
+            <li className="iconStyle">
               <Link>
                 <FaInstagram />
               </Link>
