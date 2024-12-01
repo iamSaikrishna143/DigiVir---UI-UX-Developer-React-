@@ -1,0 +1,13 @@
+.loginbtn{
+    border: 3px solid #00732F;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: #00732F;
+    font-size: 15px;
+    font-weight: 700;
+}
+.navLink{
+    font-size: 15.25px;
+    font-weight: 400;
+    color: #6D6E71;
+}
