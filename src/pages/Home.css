@@ -1,13 +1,28 @@
 .sectionBody {
-    background-image: url("../assets/images/bgPic.png");
     width: 100%;
-    background-size: cover;
-    /* background: linear-gradient(90deg, rgba(7, 47, 87, 0.45), rgba(255, 255, 255, 0.5)); */
     display: flex;
     align-items: center;
     justify-content: center;
     height: 39rem;
     flex-direction: column;
+    background-image: url("../assets/images/bgPic.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.subPart {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    background: linear-gradient(347deg, #072f57, transparent);
 }
 
 .Heading {
@@ -87,7 +102,7 @@
 .borderBox {
     border: 2px rgba(231, 118, 13, 1) solid;
     padding: 5px;
-    width: 260px;
+    width: 250px;
     height: 65px;
     display: flex;
     align-items: center;
@@ -116,6 +131,7 @@
 .customStyle {
     background-color: rgba(232, 251, 255, 1);
     height: 255px;
+    margin-bottom: 7%;
 }
 
 .btnVerified {
@@ -143,4 +159,86 @@
     left: 58px;
     border-radius: 5px;
     top: -22px;
+}
+
+/*  */
+.workText {
+    font-weight: 700;
+    color: #000;
+    font-size: 35px;
+}
+
+.lightText {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    width: 52rem;
+}
+
+.colorBorder {
+    background-color: rgba(232, 251, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 37px 65px;
+    /* height: 225px; */
+    gap: 20px;
+}
+
+.EmpBorder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 37px 65px;
+    /* height: 225px; */
+    gap: 20px;
+}
+
+.textBox {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+
+.tab-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.tab-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.tab-button.active {
+    color: rgba(235, 113, 80, 1);
+    border-bottom: 5px rgba(235, 113, 80, 1) solid;
+
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+.tab-content-section {
+    color: #fff;
+}
+
+.tabLine {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
 }
