@@ -1,4 +1,7 @@
+// React Libraries
 import React from "react";
+
+// Images
 import logo1 from "../assets/images/WorkIcon/logo1.png";
 import logo2 from "../assets/images/WorkIcon/logo2.png";
 import logo3 from "../assets/images/WorkIcon/logo3.png";
@@ -26,11 +29,11 @@ const WorkScreen = () => {
             <img src={logo2} alt="" width={"50px"} />
             <p className="textBox">Buyers Post Your Requirements</p>
           </div>
-          <div className="w-4/12 colorBorder">
+          <div className="w-4/12 colorBorder resig2">
             <img src={logo3} alt="" width={"50px"} />
             <p className="textBox"> Review, Select, and Contact the Best Suppliers</p>
           </div>
-          <div className="w-4/12 EmpBorder">
+          <div className="w-4/12 EmpBorder resing">
             <img src={logo4} alt="" width={"50px"} />
             <p className="textBox">
               {" "}

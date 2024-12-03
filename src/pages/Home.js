@@ -1,8 +1,19 @@
+// React libraries
 import React from "react";
+
+// App's Constant
 import "./Home.css";
+
+// Images
 import Suitcase from "../assets/images/suitcase.svg";
+
+// React-icon libraries
 import { PiMapPinFill } from "react-icons/pi";
+
+// react-router dom libraries
 import { Link } from "react-router-dom";
+
+// Component Section
 import HabotSection from "./HabotSection";
 import YoutubePlayer from "./YoutubePlayer";
 import VerifyItem from "./VerifyItem";
@@ -19,7 +30,7 @@ const Home = () => {
             <p className="backTitle">Explore Matching Opportunities.</p>
           </div>
           <div className="flex gap-6 flex-col">
-            <div className="flex gap-3">
+            <div className="flex gap-3 dblBox">
               <div className="relative">
                 <input
                   type="text"

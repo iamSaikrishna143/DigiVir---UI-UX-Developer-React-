@@ -1,4 +1,7 @@
+// React Libraries
 import React from "react";
+
+// React router dom Libraries
 import { Link } from "react-router-dom";
 
 const VerifyItem = () => {

@@ -1,73 +1,93 @@
 .footerSec {
-    background-color: #123557;
-    color: #fff;
-    padding: 5rem;
+  background-color: #123557;
+  color: #fff;
+  padding: 5rem;
 }
 
 .copyText {
-    font-weight: 300;
-    font-size: 16px;
-    margin-left: 12px;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 12px;
 }
 
 .navHeader {
-    font-size: 16px;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav_link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.navItem{
-    color: rgba(255, 255, 255, 1);
-    font-size: 14px;
-    font-weight: 300;
-    font-family: Arial, Helvetica, sans-serif;
+
+.navItem {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer {
-    background-color: #222;
-    color: #fff;
-    padding: 20px;
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
 }
 
 .heightBrder {
-    width: 50rem;
-    justify-content: space-evenly;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .iconStyle {
-    border: 1px solid #78bb7b;
-    border-radius: 20px;
-    padding: 7px;
-}
-
-.footer-left {
-    /* ... */
+  border: 1px solid #78bb7b;
+  border-radius: 20px;
+  padding: 7px;
 }
 
 .footer-center {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-column {
-    /* ... */
-}
-
-.footer-right {
-    /* ... */
+  display: flex;
+  justify-content: space-between;
 }
 
 .social-icons {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .social-icons li {
-    margin-right: 10px;
+  margin-right: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 750px) {
+  .footerRes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .heightBrder {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .navList {
+    display: flex;
+    gap: 35px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .footerRes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .heightBrder{
+    gap: 25px;
+  }
 }

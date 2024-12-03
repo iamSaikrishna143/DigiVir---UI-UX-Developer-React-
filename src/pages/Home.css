@@ -1,3 +1,5 @@
+/* Home.js Styles */
+
 .sectionBody {
     width: 100%;
     display: flex;
@@ -102,7 +104,7 @@
 .borderBox {
     border: 2px rgba(231, 118, 13, 1) solid;
     padding: 5px;
-    width: 250px;
+    width: 48%;
     height: 65px;
     display: flex;
     align-items: center;
@@ -110,6 +112,8 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+/* Hobot Section.js style */
 
 .secondPart {
     height: 30rem;
@@ -119,7 +123,7 @@
     gap: 30px;
 }
 
-/*  */
+/* Youtube Player.js styles */
 .thirdPart {
     background-color: rgba(7, 47, 87, 1);
     align-items: flex-start;
@@ -127,7 +131,7 @@
 
 
 
-/*  */
+/* Verify.js styles */
 .customStyle {
     background-color: rgba(232, 251, 255, 1);
     height: 255px;
@@ -161,7 +165,7 @@
     top: -22px;
 }
 
-/*  */
+/* orkScreen.js styles  */
 .workText {
     font-weight: 700;
     color: #000;
@@ -182,7 +186,6 @@
     align-items: center;
     justify-content: center;
     padding: 37px 65px;
-    /* height: 225px; */
     gap: 20px;
 }
 
@@ -192,7 +195,6 @@
     align-items: center;
     justify-content: center;
     padding: 37px 65px;
-    /* height: 225px; */
     gap: 20px;
 }
 
@@ -241,4 +243,111 @@
     color: #fff;
     font-weight: 500;
     font-size: 16px;
+}
+
+
+
+/* using Responsive Media Quires */
+@media (min-width: 768px) and (max-width: 900px) {
+    .Heading {
+        font-size: 40px;
+    }
+
+    .backTitle {
+        font-size: 30px;
+    }
+
+    .dblBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .searchBtn {
+        width: 30%;
+    }
+
+    .thirdPart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabPanel {
+        width: 100%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .Heading {
+        font-size: 30px;
+    }
+
+    .backTitle {
+        font-size: 20px;
+    }
+    .labelTxt{
+        width: 95%;
+    }
+    .cross{
+        width: 100%;
+    }
+
+    .dblBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .searchBtn {
+        width: 30%;
+    }
+
+    .thirdPart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabPanel {
+        width: 100%;
+    }
+
+    .youtubevideo {
+        width: 56%;
+    }
+
+    .hobotBody {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hobotsub {
+        width: 100%;
+    }
+
+    .borderBox {
+        width: 48%;
+    }
+
+    .lightText {
+        width: 100%;
+        text-align: center;
+    }
+
+    .EmpBorder {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .colorBorder {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .resing {
+        background-color: rgba(232, 251, 255, 1);
+    }
+
+    .resig2 {
+        background-color: white;
+    }
 }
